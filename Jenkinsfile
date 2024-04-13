@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("gosplex/Devops_tutorial")
+        app = docker.build("gosplex/devopstutorial")
     }
 
     stage('Test image') {
